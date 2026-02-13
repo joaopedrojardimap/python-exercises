@@ -10,7 +10,7 @@ This repository contains my solutions for the introductory programming course at
 
 ### Assignment 2: DNA Processing & Validation
 * **Focus:** String manipulation, methods, and iteration.
-* **Description:** Implemented functions to validate DNA sequences, identify genetic patterns, and calculate GC-content.
+* **Description:** Implemented functions to validate DNA sequences, manipulate DNA strings and count nucleotides.
 
 ### Assignment 3: Word Search Game (Original Implementation)
 * **Focus:** Matrix logic (nested lists), file I/O, and boundary validation.

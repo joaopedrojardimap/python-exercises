@@ -1,18 +1,46 @@
-Learn to Program - University of Toronto
-This repository contains my solutions for the introductory programming course at the University of Toronto. These assignments focus on building a solid foundation in Python, covering everything from basic arithmetic to complex matrix search algorithms.
+# University of Toronto | Learn to Program Assignments
 
-Assignments Overview
-A1: Time Calculation & Timezone Offset
-Focus: Arithmetic operators and variable manipulation.
+This repository contains my solutions for the introductory programming course at the **University of Toronto**. The projects progress from basic logic to complex data processing and algorithmic game design.
 
-Description: Implemented logic for time conversion and timezone offsets, handling 24-hour clock cycles.
+##  Project Overview
 
-A2: DNA Processing & Validation
-Focus: String manipulation, methods, and iteration.
+### Assignment 1: Time Calculation & Timezone Offset
+* **Focus:** Arithmetic operators and variable manipulation.
+* **Description:** Developed logic to calculate time differences and handle timezone offsets within a 24-hour clock cycle.
 
-Description: Developed functions to validate DNA sequences, calculate GC-content, and identify genetic subsequences.
+### Assignment 2: DNA Processing & Validation
+* **Focus:** String manipulation, methods, and iteration.
+* **Description:** Implemented functions to validate DNA sequences, identify genetic patterns, and calculate GC-content.
 
-A3: Word Search Game
-Focus: Matrix logic (lists of lists), file I/O, and complex function architecture.
+### Assignment 3: Word Search Game (Original Implementation)
+* **Focus:** Matrix logic (nested lists), file I/O, and boundary validation.
+* **Key Feature:** This is a fully functional Word Search engine developed entirely by me. It includes a custom `isIn` function to manage coordinate boundaries and a robust search algorithm to locate words within a grid.
 
-Key Feature: This word search game was developed entirely by me, including the core logic for finding words in various directions.
+---
+
+## Technical Skills
+
+* **Language:** Python 3.x
+* **Core Concepts:**
+    * Algorithmic thinking and flow control.
+    * Data parsing from `.txt` files.
+    * Modular code structure and function-based architecture.
+
+## Repository Structure
+
+| File | Description |
+| :--- | :--- |
+| `a1time_calculation.py` | Logic for time and offset calculations. |
+| `a2dna_processing.py` | DNA sequence analysis and validation. |
+| `a3.py` | The core Word Search engine (Original Work). |
+| `a3_driver.py` | Execution script to run the Word Search game. |
+| `board1.txt` / `wordlist1.txt` | Dataset files for the game board and dictionary. |
+
+---
+
+## How to Run
+
+To play the **Word Search Game (A3)**, ensure you have Python installed and run the following command in your terminal:
+
+```bash
+python a3_driver.py
